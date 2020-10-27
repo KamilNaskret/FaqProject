@@ -170,9 +170,12 @@ body {
 }
 
 @media (max-width: 660px) {
+  .container {
+    width: 75%;
+  }
   .container__main-image {
-    top: -20%;
-    left: -40%;
+    top: -15%;
+    left: -30%;
     -ms-flex-preferred-size: 30%;
         flex-basis: 30%;
     -webkit-transform: scale(0.4);
